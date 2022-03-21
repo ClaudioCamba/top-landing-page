@@ -36,7 +36,9 @@ h6,
 button,
 p,
 span,
-a {
+a,
+address,
+blockquote {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
@@ -49,35 +51,41 @@ a {
 .header-nav ul,
 .header-hero,
 .main,
-.img-txt-wrap {
+.img-txt-wrap,
+.main > section {
   display: flex;
 }
 
 /* Column */
 .content-wrap,
-.header {
+.header,
+.main {
   flex-direction: column;
 }
 
 /* Flex center */
 .content-wrap > header,
-.content-wrap > main,
+.content-wrap > main > section,
 .content-wrap > footer {
-  width: 100%;
   justify-content: center;
   align-items: center;
 }
 
 /* Section max width center */
 .header > *,
-.main > section {
+.main > section > div {
   max-width: 1026px;
   width: 100%;
 }
 
 /* Dark background color */
-header {
+.header {
   background-color: #1f2937;
+}
+
+/* Quote background color */
+.main-section-2 {
+  background-color: #e5e7eb;
 }
 
 /* Hero Main text */
@@ -173,3 +181,4 @@ section h2 {
 .img-txt-wrap p {
   color: #66707b;
 }
+/* Main Section 2 ==================== */
