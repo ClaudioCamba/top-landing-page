@@ -82,7 +82,8 @@ blockquote {
 }
 
 /* Dark background color */
-.header {
+.header,
+.footer {
   background-color: #1f2937;
 }
 
@@ -103,7 +104,8 @@ blockquote {
 .header-nav li a,
 .header-hero p,
 .left button,
-.img-txt-wrap p {
+.img-txt-wrap p,
+.footer p {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -207,4 +209,9 @@ section h2 {
   text-align: right;
   margin-right: auto;
 }
-/*  */
+
+/* Footer ==================== */
+.footer {
+  text-align: center;
+  padding: 40px;
+}
