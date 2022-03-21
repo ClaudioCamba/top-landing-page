@@ -1,4 +1,7 @@
 /* All ====================*/
+/* Imported font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 body * {
   box-sizing: border-box;
 }
@@ -106,16 +109,25 @@ blockquote {
 }
 
 /* Header logo text */
-.header-nav h3 {
+.header-nav h3,
+.quote-wrap address {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 600;
 }
 
-/* Information header */
+/* Information header text */
 section h2 {
   font-size: 36px;
   font-weight: bolder;
+  color: #1f2937;
+}
+
+/* Quote section text */
+.quote-wrap blockquote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
   color: #1f2937;
 }
 
@@ -135,6 +147,7 @@ section h2 {
   list-style: none;
   gap: 26px;
 }
+
 /* Hero KV */
 .header-hero {
   padding: 100px 0 132px;
@@ -181,4 +194,17 @@ section h2 {
 .img-txt-wrap p {
   color: #66707b;
 }
+
 /* Main Section 2 ==================== */
+.quote-wrap {
+  padding: 136px 100px 100px;
+}
+.quote-wrap blockquote {
+  font-family: "Roboto", sans-serif;
+}
+.quote-wrap address {
+  color: #1f2937;
+  text-align: right;
+  margin-right: auto;
+}
+/*  */
